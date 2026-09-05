@@ -1,0 +1,134 @@
+# ---------------------------------------------------------------------------
+# Compilation / build output
+# ---------------------------------------------------------------------------
+# Solution-level output trees (final binaries copied here by post-build steps)
+/Build/
+/Src/Build/
+
+# Solution-fallback output directories at the repository root (x64/Debug, ...)
+/x64/
+/x86/
+
+# Per-project intermediate and output directories
+ObjectCode/
+**/ObjectCode/
+bin/
+gen/
+obj/
+**/Release/
+**/Debug/
+**/Release IPP/
+[Rr]elease/
+**/*/x86*Debug*/
+**/*/x64*Debug*/
+**/*/x86*Release*/
+**/*/x64*Release*/
+**/out/
+winampAll/lib/
+winampAll/Win32/
+
+# Compiler/linker/MIDL intermediates that may land next to sources
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.iobj
+*.ipdb
+*.res
+*.tlog
+*.lastbuildstate
+*.cache
+*.stamp
+
+# Visual Studio / IDE state
+**/.vs/
+.vs/
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.user
+**/*.user
+*.aps
+ipch/
+UpgradeLog.htm
+*.log
+
+# MIDL-generated files for the Elevator COM proxy/stub
+/Elevator/DebugPS
+Elevator/ReleasePS/
+/Src/Elevator/IFileTypeRegistrar_*.h
+/Src/Elevator/IFileTypeRegistrar_i.c
+/Src/Elevator/IFileTypeRegistrar_p.c
+/Src/Elevator/IFileTypeRegistrar_64_p.c
+/Src/Elevator/dlldata_64.c
+/Src/Elevator/vcpkg.applocal.log
+/Elevator/IFileTypeRegistrar.h
+/Elevator/IFileTypeRegistrar_i.c
+/Elevator/IFileTypeRegistrar_p.c
+/Elevator/IFileTypeRegistrar_32.h
+
+# Build logs (build_with_vs2026.cmd writes these at the repository root)
+build_x86_debug.log
+build_x86_debug_full.log
+
+# ---------------------------------------------------------------------------
+# Downloaded dependencies (populate per README.md "Installable dependencies")
+# ---------------------------------------------------------------------------
+/Dependencies/
+/vcpkg
+/vcpkg_installed
+/Src/external_dependencies/vcpkg
+/Src/external_dependencies/CEF
+/Src/external_dependencies/CEF.0
+/Src/external_dependencies/CEF3
+/Src/external_dependencies/CEF.7z.*
+
+# ---------------------------------------------------------------------------
+# Legacy entries kept from the original repository layout
+# ---------------------------------------------------------------------------
+.settings/
+notes
+*.orig
+*.bak
+.DS_Store
+burnlib/lib/
+flac/obj/
+freetype/objs/
+in_mod/lib/
+in_mod/lib/temp/
+in_mod/mikamp/Release/
+in_vorbis/Win32/
+libmp4v2/libmp4v2___Win32_Release/
+/libmp4v2/libmp4v2___Win32_Debug_Winamp
+libogg/win32/Release/
+libogg/win32/Static_Release/
+/libsndfile/Profiling/
+libtheora/win32/VS2008/libtheora/Win32/
+libvorbis/win32/Win32/
+nde/Lib/
+out_ds/wa2_release/
+out_wave/out_wave_release
+nsutil/nsutil.lib
+nsutil/nsutil.exp
+resources/WaSDP/*.exe
+mp3/utillib/lib/
+mp3/mathlib/lib/
+Release_x86_Dll/
+external_dependencies/libFLAC/src/libFLAC/ia32/cpu_asm.obj
+external_dependencies/libFLAC/src/libFLAC/ia32/fixed_asm.obj
+external_dependencies/libFLAC/src/libFLAC/ia32/lpc_asm.obj
+/f263/Release.w5s
+/f263/Debug.w5s
+/libogg/win32/Static_Debug
+/Src/Plugins/DSP/sc_serv3/messagefile.rc
+/Qt/Qt6.3.1/windows
+/Qt/DLL_5.12_x86/Debug_Commercial
+/Qt/DLL_5.12_x86/Release_Commercial
+/Src/Plugins/Library/ml_fanzone.0
+/Src/Plugins/Library/ml_fanzone - Copy
+/Build/platforms
+/external_dependencies/x86-windows-static
